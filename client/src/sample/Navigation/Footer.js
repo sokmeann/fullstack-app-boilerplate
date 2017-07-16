@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <div id="Footer">{'Copyright © 2017. All Rights Reserved'}</div>
+  <div id="Footer">{'@github.com/sokmeann/fullstack-app-boilerplate'}</div>
 );
 
 export default Footer;

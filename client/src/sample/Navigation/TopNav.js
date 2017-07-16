@@ -7,7 +7,6 @@ class TopNav extends Component {
   constructor() {
     super();
     this.state = {
-      pageLoaded: false,
       isHidden: true,
     };
     this.hideTopNavColor = this.hideTopNavColor.bind(this);
@@ -33,10 +32,11 @@ class TopNav extends Component {
   }
 
   render() {
-    const topNavColor = this.state.isHidden ? 'top-nav-active' : '';
+    const topNavColor = this.state.isHidden && this.props.isDynamic ? 'top-nav-active' : '';
+    const fixedNav = !this.props.isDynamic ? 'top-nav-active' : '';
 
     return (
-      <nav id="top-nav" className={`full-w flex-row-space-between ${topNavColor}`}>
+      <nav id="top-nav" className={`full-w flex-row-space-between ${topNavColor} ${fixedNav}`}>
         <div id="top-nav-left">
           <Link to="home">
             LOGO
