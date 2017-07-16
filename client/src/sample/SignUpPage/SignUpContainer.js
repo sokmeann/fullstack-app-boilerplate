@@ -10,7 +10,7 @@ const SignUpContainer = () => (
     <TopNav />
     <div id="wrapper">
       <div id="wrapper" className="flex-column-center-center">
-        <div id="header" className="flex-w flex-row-center-center">REGISTRATION FORM</div>
+        <div id="header" className="section-title flex-row-center-center">REGISTRATION FORM</div>
         <div className="form-wrapper flex-column-center-center">
           {
             InputItems.map(item => (
