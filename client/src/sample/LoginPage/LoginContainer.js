@@ -8,7 +8,7 @@ const Login = () => (
   <div>
     <TopNav isDynamic={true} />
     <div id="wrapper" className="login-page flex-column-center-center">
-      <div className="form-wrapper flex-column-center-center">
+      <div className="login-wrapper flex-column-center-center">
         <div className="form-row flex-row-center-start">
           <div className="form-label login-text">USERNAME</div>
           <div className="form-input">
