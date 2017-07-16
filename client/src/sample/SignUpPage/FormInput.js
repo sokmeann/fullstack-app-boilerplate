@@ -1,28 +1,22 @@
 export const InputItems = [ // eslint-disable-line
   {
-    label: 'Name*:',
+    label: 'Name:',
     input: [{
       placeholder: 'First Name',
     }, {
       placeholder: 'Last Name',
     }],
   }, {
-    label: 'Email*:',
-    input: [{ placeholder: '' }],
+    label: 'Email:',
+    input: [{ placeholder: 'joe@something.com' }],
   }, {
-    label: 'Password*:',
-    input: [{ placeholder: '' }],
+    label: 'Password:',
+    input: [{ placeholder: '*********' }],
   }, {
-    label: 'Password Confirmation*:',
-    input: [{ placeholder: '' }],
+    label: '',
+    input: [{ placeholder: 'Confirm Password' }],
   }, {
-    label: 'Business Name*:',
-    input: [{ placeholder: '' }],
-  }, {
-    label: 'Business Industry*:',
-    input: [{ placeholder: '' }],
-  }, {
-    label: 'Business Location*:',
+    label: 'Location:',
     input: [{
       placeholder: 'Country',
     }, {
