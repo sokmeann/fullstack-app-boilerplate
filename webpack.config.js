@@ -2,7 +2,7 @@ const path = require('path');
 const LiveReloadPlugin = require('webpack-livereload-plugin');
 
 module.exports = {
-  entry: './client/src/index.js',
+  entry: './client/index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'public/dist'),
@@ -11,8 +11,8 @@ module.exports = {
   devtool: 'source-map',
   resolve: {
     alias: {
-      src: path.resolve(__dirname, 'client/src'),
-      assets: path.resolve(__dirname, 'public/assets'),
+      src: path.resolve(__dirname, '..', 'client/src'),
+      assets: path.resolve(__dirname, '..', 'public/assets'),
     },
     extensions: ['.js', '.jsx', '.json', '*'],
   },

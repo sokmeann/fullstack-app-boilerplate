@@ -1,0 +1,33 @@
+.landing-page {
+  background: url('../../../../public/assets/img/cover_small.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing-full-text {
+  text-align: center;
+  padding: 10% 12%;
+  font-size: 3em;
+  font-weight: bold;
+  color: #FFF;
+  text-shadow: 1px 1px 2px grey;
+  letter-spacing: 2px;
+}
+
+.website-section {
+  padding: 10%;
+  min-height: 300px;
+}
+
+#how-it-works {
+  &-body {
+    div {
+      min-height: 100px;
+    }
+  }
+  &-head {
+    min-height: 100px;
+  }
+}
