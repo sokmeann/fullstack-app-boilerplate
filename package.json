@@ -1,0 +1,19 @@
+{
+  "name": "fullstack-app-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sokmeann/fullstack-app-boilerplate.git"
+  },
+  "author": "Sokmean Nou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sokmeann/fullstack-app-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sokmeann/fullstack-app-boilerplate#readme"
+}
